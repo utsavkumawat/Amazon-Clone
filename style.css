@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#navbar{
+    background-color: #0f1111;
+    color: white;
+    height: 65px;
+    width: 1349px; 
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+       }
+
+#logo{
+    height: 30px;
+    margin-left: 30px;
+    }
+
+    a{
+        margin-left: 90px;
+        text-decoration: none;
+    }
+
+    #cart{
+        margin-right: 20px;
+    }
+
+    #search{
+        background-color: rgb(255, 218, 51);
+        font-size: 15px;
+        width: 120px;
+        height: 36px;
+        text-align: center;
+        
+    } 
+
+
+    #text{
+        font-size: 15px;
+        width: 500px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+   
+    #allbutton{
+        margin-left: 50px;
+        font-size: 15px;
+        width: 100px;
+        height: 34px;
+    }
+
+    #zerosec{
+        height: 500px;
+        /* background-color: blue; */
+        background-image: url("navbar.jpg");
+        background-size: cover;
+    }
+
+    #secondbar{
+        background-color: rgb(59, 59, 75);
+        color: white;
+        height: 25px;
+        /* display: flex;
+        flex-direction: row;
+        align-content: center; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+
+    .secondnav{
+        margin-left: 15px;
+        text-decoration: none;
+    }
+
+    #all{
+        margin-left: 20px;
+    }
+
+    #p1{
+        background-color: rgb(231, 238, 243);
+        height: 25px;
+        width: 1330px;
+        padding-top: 11px;
+        margin-left: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        bottom: 260px;
+    }
+
+    #gaming{
+        background-color: white;
+        border: 2px solid black;
+        height: 420px;
+        width: 300px;
+        position: relative;
+        left: 20px;
+        bottom: 240px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 30px;
+        }
+
+
+        #headset{
+            height: 150px;
+            width: 130px;
+            background-image: url("headset.jpg");
+            background-size: 130px 150px;
+            position: absolute;
+            left: 5px;
+            top: 25px;
+            margin-top: 10px;
+            
+        }
+
+        #keyboard{
+            height: 150px;
+            width: 130px;
+            background-image: url("keyboard.jpg");
+            background-size: 130px 150px;
+            position: absolute;
+            right: 5px;
+            top: 25px;
+        }
